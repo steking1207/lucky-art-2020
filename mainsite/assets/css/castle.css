@@ -1,0 +1,71 @@
+body { background: #ffe7e3; }
+
+.bg-cloud-top { background: url(../img/page/castle/bg-cloud-rainbow.png) no-repeat center 0; }
+@media (max-width: 767.98px) { .bg-cloud-top { background: url(../img/page/castle/bg-cloud-top.png) no-repeat right 0; background-size: 30%; } }
+
+#footer { background-color: #c2eee9; }
+
+#section-castle { background: url(../img/page/castle/bg-land.png) no-repeat center bottom; }
+#section-castle .balloons { right: 0; top: 0; }
+#section-castle .superman { right: -80px; top: -50px; z-index: 2; }
+#section-castle .sun { left: -83px; top: -72px; z-index: 2; }
+@media (max-width: 991.98px) { #section-castle { background-size: 250%; background-position: 35% bottom; }
+  #section-castle .castle-inner { background: none; }
+  #section-castle .sun { left: -20px; top: -30px; width: 115px; }
+  #section-castle .balloons { right: -30%; top: 30px; width: 50px; }
+  #section-castle .superman { left: -50%; width: 150px; } }
+#section-castle .rainbow { right: -10px; top: 300px; z-index: -1; width: 50%; }
+
+#section-floor { background: #eef9d2; }
+#section-floor .btn-dl { background: #98be32; color: #fff; }
+#section-floor .btn-dl:hover, #section-floor .btn-dl:focus { background: #f55926; }
+#section-floor .superman { right: 0; bottom: 0; }
+@media (max-width: 1199.98px) { #section-floor .superman { right: 10%; width: 70px; } }
+
+#section-show { background: url(../img/ui/bg-bubble-yellow.png); }
+#section-show .show-wall { background-repeat: no-repeat; background-image: url(../img/page/castle/show-wall-pc.png); background-size: 100% 100%; height: 100%; }
+#section-show .superman { left: -13%; bottom: 0; width: 38%; }
+@media (max-width: 991.98px) { #section-show .show-wall { background-image: url(../img/page/castle/show-wall-mb.png); height: auto; }
+  #section-show .show-wall .show-wall-inner { background: #fff; }
+  #section-show .superman { width: 200px; } }
+
+#section-diy { background: url(../img/ui/bg-dot-pink.png); }
+#section-diy .diy-1 { background: url(../img/page/castle/bg-diy-cloud1.png) no-repeat center top; }
+#section-diy .diy-1 .superman { left: -10%; bottom: 0; }
+#section-diy .diy-1 .footprint { right: 0; bottom: 0; }
+@media (max-width: 991.98px) { #section-diy .diy-1 { background: none; }
+  #section-diy .diy-1 .footprint { width: 70px; } }
+#section-diy .diy-2 { background: url(../img/page/castle/bg-diy-cloud2.png) no-repeat 20% center; }
+#section-diy .diy-2 .footprint { left: -10%; bottom: -17%; }
+#section-diy .diy-2 .diy-mark { right: -57px; bottom: 0; z-index: 2; }
+#section-diy .diy-2 .colorpen { right: -15%; bottom: 145px; }
+@media (max-width: 991.98px) { #section-diy .diy-2 { background-size: 80%; background-position: -5% 15%; }
+  #section-diy .diy-2 .diy-mark { right: -5px; top: 20%; width: 91px; }
+  #section-diy .diy-2 .colorpen { top: -10px; right: 10%; width: 70px; } }
+#section-diy .diy-3 .chalkman { right: -180px; top: 37%; }
+@media (max-width: 991.98px) { #section-diy .diy-3 .chalkman { width: 100%; overflow: hidden; right: -20px; top: 5%; text-align: right; }
+  #section-diy .diy-3 .chalkman img { position: relative; right: -15%; width: 240px; } }
+#section-diy .diy-4 { background: url(../img/page/castle/bg-diy-cloud3.png) no-repeat 20% center; }
+#section-diy .diy-4 .footprint { right: -12%; top: -35%; }
+#section-diy .diy-4 .paint { right: -85px; bottom: -16px; z-index: 2; }
+@media (max-width: 991.98px) { #section-diy .diy-4 { background: none; }
+  #section-diy .diy-4 .footprint { right: 0; top: -20px; width: 70px; }
+  #section-diy .diy-4 .paint { right: 0; width: 70px; } }
+#section-diy .rounded-lg, #section-diy .intro { position: relative; z-index: 1; }
+#section-diy .notice { background: #fff; border: 3px solid #b4e186; }
+
+#section-change { background: url(../img/ui/bg-star-yellow.png); }
+#section-change .position-relative .superman { position: absolute; right: 0; bottom: 0; }
+#section-change .carousel-dots { background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%); border-radius: 0 0 20px 20px; }
+@media (max-width: 991.98px) { #section-change .carousel-dots { background: none; } }
+
+#section-service { background: #c2eee9; }
+@media (max-width: 991.98px) { #section-service .h4 { font-size: 1.5rem; } }
+
+.shine { position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: block; background-position: center 0; background-repeat: no-repeat; background-size: contain; }
+.shine.shine1 { background-image: url(../img/page/castle/service-shine1@2x.png); }
+.shine.shine2 { background-image: url(../img/page/castle/service-shine2@2x.png); }
+.shine.shine3 { background-image: url(../img/page/castle/service-shine3@2x.png); }
+.shine.shine4 { background-image: url(../img/page/castle/service-shine4@2x.png); }
+
+.border-white-5 { border: 5px solid #fff; }

@@ -1,0 +1,79 @@
+.state { margin-right: 5px; display: inline-block; }
+@media (max-width: 991.98px) { .state { font-size: 13px; } }
+
+[class^="state-"], [class*="state-"] { float: left; display: block; margin-top: 3px; margin-right: 3px; width: 15px; height: 15px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+
+.state-1 { background-color: #a8eff0; }
+
+.state-2 { background-color: #acf3c8; }
+
+.state-3 { background-color: #ffe484; }
+
+.state-4 { background-color: #ff9388; }
+
+#rv_calendar td, #rv_calendar th, #rv_calendar tr { padding: 0; border: 1px solid #ccc; }
+#rv_calendar th { text-align: center; }
+#rv_calendar .empty { color: #CCC; background-color: #F2F2F2; vertical-align: top; padding: 5px; }
+
+.rv_period .blue, .rv_date .blue { background-color: #a8eff0; }
+.rv_period .green, .rv_date .green { background-color: #acf3c8; }
+.rv_period .yellow, .rv_date .yellow { background-color: #ffe484; }
+.rv_period .orange, .rv_date .orange { background-color: #FFD553; }
+.rv_period .red, .rv_date .red { background-color: #ff9388; }
+
+.rv_date { position: relative; margin: 5px 7px; line-height: 20px; font-weight: 700; }
+.rv_date.active { display: inline-block; background: #00ae93; width: 20px; height: 20px; color: #fff; border-radius: 50%; text-align: center; }
+@media (max-width: 991.98px) { .rv_date { text-align: center; } }
+
+#rv_calendar th { padding: 3px; font-size: 13px; background: #adb5bd; color: #fff; }
+
+.rv_period { margin: 0 7px 7px 7px; padding: 0; list-style-type: none; }
+.rv_period li { margin: 2px 0; padding: 0 10px; font-size: 13px; list-style-type: none; border-radius: 5px; }
+
+.rv_date th { padding: 3px; color: #333; font-weight: normal; }
+.rv_date td { padding: 5px; }
+.rv_date .estimated td { font-size: 13px; padding: 3px; text-align: center; color: #999; }
+.rv_date .title td { background-color: #E6E6E6; padding: 5px; font-size: 12px; text-align: center; }
+.rv_date .phone { float: left; }
+.rv_date .people { float: right; }
+
+.rv_date1 { position: relative; padding: 5px 5px 7px 5px; }
+
+@media (max-width: 991.98px) { .table-rwd .table-calendar thead { display: block; }
+  .table-rwd .table-calendar tr { display: flex; flex-wrap: wrap; }
+  .table-rwd .table-calendar .time { flex-grow: 1; padding: 1px; width: 27%; font-size: 12px; }
+  .table-rwd .table-calendar .time ul { margin-top: 30px; text-align: center; }
+  .table-rwd .table-calendar .time li { line-height: 22px; }
+  .table-rwd .table-calendar th, .table-rwd .table-calendar td { flex-grow: 1; padding: 1px; width: 10%; }
+  .table-rwd .table-calendar th a, .table-rwd .table-calendar td a { padding: 0; top: auto; right: auto; text-align: center; white-space: nowrap; }
+  .table-rwd .table-calendar th .rv_date, .table-rwd .table-calendar td .rv_date { padding: 1px; }
+  .table-rwd .table-calendar th .rv_date, .table-rwd .table-calendar th a, .table-rwd .table-calendar td .rv_date, .table-rwd .table-calendar td a { position: relative; }
+  .table-rwd .table-calendar th .rv_period, .table-rwd .table-calendar td .rv_period { display: block; line-height: 10px !important; font: 0/0 a; color: transparent; text-shadow: none; background-color: transparent; border: 0; }
+  .table-rwd .table-calendar th:before, .table-rwd .table-calendar td:before { display: none; padding: 2px 5px; content: attr(data-th) " "; }
+  .table-rwd .table-calendar th.empty:before, .table-rwd .table-calendar td.empty:before { padding: 0; } }
+body { background: url(../img/ui/bg-dot-green.png); }
+
+.bg-cloud-top { background: url(../img/page/booking/bg-cloud-top.png) no-repeat right -5%; }
+@media (max-width: 767.98px) { .bg-cloud-top { background-size: 30%; background-position: right 0; } }
+
+.bg-cloud-bottom { background: url(../img/page/booking/bg-cloud-bottom.png) no-repeat center -10%; }
+@media (max-width: 767.98px) { .bg-cloud-bottom { background-size: cover; } }
+
+.bg-cloud-color { background: #edfff4; }
+
+.btn-primary { background: #1594c3; }
+
+.superman { left: 12%; bottom: 0; }
+@media (max-width: 991.98px) { .superman { position: relative; left: 0; right: 0; width: 80%; } }
+
+.btn-cal { display: block; width: 25px; height: 25px; background-color: #00ae93; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.btn-cal:hover, .btn-cal:active, .btn-cal.active { background-color: #007b68; }
+
+.icon-cal-left, .icon-cal-right { width: 0; height: 0; border-style: solid; }
+
+.icon-cal-left { border-width: 6px 6px 6px 0; border-color: transparent #fff transparent transparent; }
+
+.icon-cal-right { border-width: 6px 0 6px 6px; border-color: transparent transparent transparent #fff; }
+
+.bg-calendar { background: url(../img/page/booking/bg-rainbow.png) #fff repeat-x center 12px; }
+@media (max-width: 991.98px) { .bg-calendar { background-image: none; } }

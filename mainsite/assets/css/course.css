@@ -1,0 +1,28 @@
+body { background: url(../img/ui/bg-triangle-orange.png); }
+
+.bg-cloud-top { background: url(../img/page/course/bg-cloud-top.png) no-repeat right -5%; }
+@media (max-width: 767.98px) { .bg-cloud-top { background-size: 30%; background-position: right 0; } }
+
+.bg-cloud-bottom { background: url(../img/page/course/bg-cloud-bottom.png) no-repeat right 200px; }
+@media (max-width: 767.98px) { .bg-cloud-bottom { background-size: cover; } }
+
+#footer { background-color: #fff7ec; }
+
+.label-step { width: 80px; height: 65px; background-image: url("../img/page/course/label-step.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) { .label-step { background-image: url("../img/page/course/label-step@2x.png"); -moz-background-size: 100%, 100%; -o-background-size: 100%, 100%; -webkit-background-size: 100%, 100%; background-size: 100%, 100%; } }
+
+.notice .rounded-circle { width: 90px; height: 90px; color: #fff; }
+.notice .notice-age { background: #ff6406; }
+.notice .notice-age img { width: 42px; height: 42px; }
+.notice .notice-time { background: #ff7e03; }
+.notice .notice-time .clock { display: inline-block; width: 50px; height: 50px; line-height: 50px; letter-spacing: -.1rem; background: url(../img/page/course/notice-time.svg) no-repeat; }
+.notice .notice-price { background: #ff9600; }
+.notice .notice-price .ticket { width: 60px; height: 29px; line-height: 29px; letter-spacing: -.1rem; background: url(../img/page/course/notice-price.svg) no-repeat; }
+
+.row-step .col-6 figure:after { position: absolute; right: -18px; top: 50%; margin-top: -15px; display: block; content: ''; width: 19px; height: 31px; background-image: url("../img/ui/icon-right-arw-orange.svg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) { .row-step .col-6 figure:after { background-image: url("../img/ui/icon-right-arw-orange@2x.svg"); -moz-background-size: 19px, 31px; -o-background-size: 19px, 31px; -webkit-background-size: 19px, 31px; background-size: 19px, 31px; } }
+@media (max-width: 991.98px) { .row-step .col-6 figure:after { display: none; } }
+.row-step .col-6:last-child figure:after { display: none; }
+
+.watercolor-intro { background: url(../img/page/course/superman.png) no-repeat 90% bottom; }
+@media (max-width: 991.98px) { .watercolor-intro { background-size: 90px 66px; } }
