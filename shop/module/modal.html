@@ -1,0 +1,206 @@
+    <!-- 轉帳資訊 -->
+    <div class="modal modal-atm fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="vertical-alignment-helper">
+            <div class="modal-dialog vertical-align-center p-3">
+                <div class="modal-content rd-xl modal-sm">
+                <div class="modal-body">
+                    <div class="text-right">
+                        <a class="close" href="" data-dismiss="modal">
+                            <i class="icon-close"></i>
+                        </a>
+                    </div>
+                    <div class="py-4">
+                        <div class="h2">回填轉帳資訊</div>
+                        <div class="form-group row no-gutters">
+                            <label class="col-form-label col-4">轉帳日期</label>
+                            <div class="col-8">
+                                <div class="input-group">
+                                    <input type="text" class="form-control bg-faded border-right-0" id="" placeholder="" data-provide="datepicker">
+                                    <span class="input-group-addon bg-faded">
+                                        <i class="icon-calendar"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row no-gutters">
+                            <label class="col-form-label col-4">帳號末5碼</label>
+                            <div class="col-8">
+                                <input type="number" class="form-control bg-faded">
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <a class="btn btn-success px-6" href="" data-dismiss="modal" data-toggle="modal" data-target=".modal-atm-done">
+                                <span class="h5">確認送出</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 轉帳成功 -->
+    <div class="modal modal-atm-done fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="vertical-alignment-helper">
+            <div class="modal-dialog vertical-align-center p-3">
+                <div class="modal-content rd-xl modal-sm">
+                <div class="modal-body">
+                    <div class="text-right">
+                        <a class="close" href="" data-dismiss="modal">
+                            <i class="icon-close"></i>
+                        </a>
+                    </div>
+                    <div class="py-4 text-center">
+                        <div class="h2">轉帳訊息已成功送出</div>
+                        <p>
+                            感謝您的訂購。<br>
+                            確認收到款項後1~3個工作天內出貨。
+                        </p>
+                        <div class="text-center">
+                            <a class="btn btn-success px-6" href="" data-dismiss="modal">
+                                <span class="h5">確認</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 未付款:取消訂單 -->
+    <div class="modal modal-cancel fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="vertical-alignment-helper">
+            <div class="modal-dialog vertical-align-center p-3">
+                <div class="modal-content rd-xl modal-sm">
+                <div class="modal-body">
+                    <div class="text-right">
+                        <a class="close" href="" data-dismiss="modal">
+                            <i class="icon-close"></i>
+                        </a>
+                    </div>
+                    <div class="py-4 text-center">
+                        <div class="h2">確定要取消訂單/退貨嗎?</div>
+                        <div class="form-group row no-gutters">
+                            <div class="col-12">
+                                <select class="custom-select form-control">
+                                    <option>請選擇取消訂單/退貨原因</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <a class="btn btn-success px-6" href="" data-dismiss="modal" data-toggle="modal" data-target=".modal-cancel-done">
+                                <span class="h5">送出</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 未付款:取消訂單完成 -->
+    <div class="modal modal-cancel-done fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="vertical-alignment-helper">
+            <div class="modal-dialog vertical-align-center p-3">
+                <div class="modal-content rd-xl modal-sm">
+                <div class="modal-body">
+                    <div class="text-right">
+                        <a class="close" href="" data-dismiss="modal">
+                            <i class="icon-close"></i>
+                        </a>
+                    </div>
+                    <div class="py-4 text-center">
+                        <div class="h2">訂單已取消</div>
+                        <p>
+                            感謝您使用蜡藝購物，<br>期待您下次購物。
+                        </p>
+                        <div class="text-center">
+                            <a class="btn btn-success px-6" href="" data-dismiss="modal">
+                                <span class="h5">確認</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 已付款:取消訂單 -->
+    <div class="modal modal-paid-cancel fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="vertical-alignment-helper">
+            <div class="modal-dialog vertical-align-center p-3">
+                <div class="modal-content rd-xl modal-md">
+                <div class="modal-body">
+                    <div class="text-right">
+                        <a class="close" href="" data-dismiss="modal">
+                            <i class="icon-close"></i>
+                        </a>
+                    </div>
+                    <div class="py-4">
+                        <div class="h2">若您未付款未收到貨品</div>
+                        <p class="mb-10">
+                            若選擇宅配貨到付款，請拒收貨品。<br>
+                            若選擇超商取貨付款，請不要前往取貨。
+                        </p>
+                        <div class="h2">若您已付款未收到貨品</div>
+                        <p class="mb-10">
+                            當宅配聯絡您時請拒收貨品。<br>
+                            不論訂單是否達免運費標準，直接退貨商品需負擔宅配費用100元。<br>
+                            我們確認退貨後將款項扣除運費後，以支票方式掛號寄送給原訂購人。<br>
+                            不可指定其他地址、付款方式與其他收款人。
+                        </p>
+                        <div class="h2">若您已經收到貨品</div>
+                        <ol class="pl-3">
+                            <li>辦理退貨商品必須是全新狀態且包裝完整，否則將會影響退貨權限。</li>
+                            <li>請將欲退貨之商品連同發票寄至「宜蘭縣蘇澳鎮龍德里德興六路7號 </li>
+                            <li>蜡藝線上購物退貨組 收」並於包裝上註明訂單編號。</li>
+                            <li>發票遺失恕無法辦理退貨。</li>
+                            <li>確認退貨後會將款項以支票方式掛號寄送給原訂購人。</li>
+                            <li>不可指定其他地址、付款方式與其他收款人。</li>
+                        </ol>
+                        <div class="text-center">
+                            <a class="btn btn-success px-6" href="" data-dismiss="modal" data-toggle="modal" data-target=".modal-paid-cancel-done">
+                                <span class="h5">確認退貨</span>
+                            </a>
+                            <a class="btn btn-gray px-6" href="" data-dismiss="modal">
+                                <span class="h5">取消</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 已付款:取消訂單完成 -->
+    <div class="modal modal-paid-cancel-done fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="vertical-alignment-helper">
+            <div class="modal-dialog vertical-align-center p-3">
+                <div class="modal-content rd-xl modal-sm">
+                <div class="modal-body">
+                    <div class="text-right">
+                        <a class="close" href="" data-dismiss="modal">
+                            <i class="icon-close"></i>
+                        </a>
+                    </div>
+                    <div class="py-4 text-center">
+                        <div class="h2">退貨要求已送出</div>
+                        <p>
+                            感謝您使用蜡藝購物，<br>期待您下次購物。
+                        </p>
+                        <div class="text-center">
+                            <a class="btn btn-success px-6" href="" data-dismiss="modal">
+                                <span class="h5">確認</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
