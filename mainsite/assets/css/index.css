@@ -1,0 +1,27 @@
+a.d-block { position: relative; }
+a.d-block:hover img { opacity: .8; }
+
+.slick-dots { bottom: 5%; }
+.slick-dots li { width: 13px; height: 13px; }
+.slick-dots li button { background-color: #000; box-shadow: 3px 3px 7px #000; }
+.slick-dots li.slick-active { width: 15px; height: 15px; }
+.slick-dots li.slick-active button { background-color: #000; }
+
+.label { position: absolute; left: -10px; top: 0; z-index: 12; padding: 0 .75rem; width: 70px; height: 70px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-align: center; color: #fff; font-size: 18px; line-height: 1.1; }
+.label.label-red { background-color: #eb3154; }
+.label.label-blue { background-color: #19a5f0; }
+.label.label-green { background-color: #71bb0b; }
+.label.label-orange { background-color: #ffb200; }
+@media (max-width: 991.98px) { .label { width: 50px; height: 50px; font-size: 12px; } }
+
+.section-prod .d-block { text-align: center; }
+.section-prod .col img { width: 100%; }
+.section-prod img { margin: 0 auto; max-height: 232px; }
+
+.carousel-dots li { margin-top: 1px; width: 13px; height: 13px; background-color: #000; }
+.carousel-dots li:before { display: none; }
+.carousel-dots li:hover, .carousel-dots li:focus { background-color: #98be32; }
+.carousel-dots .active { margin-top: 0; width: 15px; height: 15px; background-color: #000; }
+.carousel-dots .active:before { display: none; }
+@media (max-width: 991.98px) { .carousel-dots li { width: 8px; height: 8px; }
+  .carousel-dots .active { width: 10px; height: 10px; } }
