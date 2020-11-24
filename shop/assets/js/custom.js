@@ -127,3 +127,10 @@ $('a[data-slide]').click(function(e) {
     var slideno = $(this).data('slide');
     $('.slider-gallery').slick('slickGoTo', slideno - 1);
  });
+
+$(".btn-search").click(function(){
+    $(".search-bar").fadeIn();
+});
+$(".btn-search-close").click(function(){
+    $(".search-bar").fadeOut();
+});
