@@ -1,0 +1,11 @@
+body { background: url(../img/page/parties/bg-cloud-bottom.png) #c2eee9 no-repeat center bottom; }
+
+.bg-cloud-top { background: url(../img/page/parties/bg-cloud-top-pc.jpg) no-repeat center -5%; }
+@media (max-width: 991.98px) { .bg-cloud-top { background-size: 30%; background-position: right 0; background: url(../img/page/parties/bg-cloud-top-mb.png) no-repeat right -5%; } }
+
+.bg-superman { background: none; }
+@media (max-width: 991.98px) { .bg-superman { background-image: url("../img/page/parties/superman.png"); background-repeat: no-repeat; background-position: center bottom; } }
+@media only screen and (max-width: 991.98px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 991.98px) and (min--moz-device-pixel-ratio: 2), only screen and (max-width: 991.98px) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (max-width: 991.98px) and (min-device-pixel-ratio: 2), only screen and (max-width: 991.98px) and (min-resolution: 1.25dppx), only screen and (max-width: 991.98px) and (min-resolution: 2dppx) { .bg-superman { background-image: url("../img/page/parties/superman@2x.png"); -moz-background-size: 75%, 75%; -o-background-size: 75%, 75%; -webkit-background-size: 75%, 75%; background-size: 75%, 75%; } }
+
+.list-notice li { position: relative; counter-increment: item; margin: 0 0 8px 20px; }
+.list-notice li:before { position: absolute; left: 0; top: 0; z-index: -1; width: 27px; height: 27px; background: #1594c3; color: #fff; text-align: center; line-height: 27px; border-radius: 50%; content: counter(item); }

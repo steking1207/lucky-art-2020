@@ -82,9 +82,9 @@ $('.slider-gallery').slick({
     asNavFor: '.slider-gallery-nav',
     responsive: [
         {
-            breakpoint: 1200,
+            breakpoint: 640,
             settings: {
-                arrows: true,
+                dots: true,
             }
         }
     ]
