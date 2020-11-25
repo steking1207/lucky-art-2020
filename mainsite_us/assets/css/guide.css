@@ -7,7 +7,8 @@ body { background: #d7f7f3; }
 #section-ticket .table-ticket .list-title { color: #fff; width: 40%; }
 @media (max-width: 991.98px) { #section-ticket .table-ticket .list-title { width: auto; } }
 #section-ticket .table-ticket .list-content { background: #fff; }
-#section-ticket .table-ticket .list-title, #section-ticket .table-ticket .list-content { padding-top: 20px; padding-bottom: 20px; border-top: 1px solid #fff; }
+#section-ticket .table-ticket .list-title, #section-ticket .table-ticket .list-content { border-top: 1px solid #fff; }
+@media (max-width: 991.98px) { #section-ticket .table-ticket .list-title, #section-ticket .table-ticket .list-content { padding-top: 5px; padding-bottom: 5px; } }
 #section-ticket .table-ticket tr:first-child { border-top: 0 !important; }
 #section-ticket .table-ticket tr:first-child .list-title { border-radius: 20px 0 0 0; }
 #section-ticket .table-ticket tr:first-child .list-content { border-radius: 0 20px 0 0; }
@@ -34,8 +35,8 @@ body { background: #d7f7f3; }
 #section-ticket .superman { left: -15px; top: 90px; }
 #section-ticket .parties-pc { left: -20%; top: 40%; }
 #section-ticket .parties-mb { right: -20px; top: -2%; width: 105%; z-index: -1; }
-#section-ticket .rainbow-pc { right: 0; bottom: 260px; }
-#section-ticket .rainbow-mb { right: 0; bottom: 0; width: 160px; }
+#section-ticket .rainbow-pc { left: 50%; bottom: 260px; width: 50%; overflow: hidden; }
+#section-ticket .rainbow-mb { left: 0; right: 0; bottom: 0; margin: 0 auto; width: 75%; }
 @media (max-width: 991.98px) { #section-ticket .superman { left: 0; top: -110px; width: 60px; }
   #section-ticket .parties-pc { display: none; } }
 
@@ -46,9 +47,9 @@ body { background: #d7f7f3; }
 #section-traffic .address .btn-warning { background: #f55926; color: #fff; border-radius: 40px; }
 #section-traffic .address .btn-warning:hover, #section-traffic .address .btn-warning:focus { background: #de3e0a; }
 #section-traffic .address .superman { left: 35px; bottom: 0; }
-@media (max-width: 991.98px) { #section-traffic .address { padding-left: 75px; }
+@media (max-width: 991.98px) { #section-traffic .address { padding-left: 45px; font-size: 11px; }
   #section-traffic .address .btn-warning { border-radius: 50%; }
-  #section-traffic .address .superman { left: 20px; } }
+  #section-traffic .address .superman { left: 15px; width: 40px; } }
 #section-traffic .icon-pin { top: -2px; width: 12px; height: 16px; }
 #section-traffic .icon-pin.white { background-image: url("../img/ui/icon-pin-white.svg"); }
 #section-traffic hr { border-top-color: #fcded3; }

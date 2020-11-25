@@ -33,7 +33,7 @@ body { background: #d7f7f3; }
 #section-ticket .hr-dot { border-color: #1594c3; }
 #section-ticket .superman { left: -15px; top: 90px; }
 #section-ticket .balloons { left: 0; top: 40%; }
-#section-ticket .rainbow-pc { right: 0; bottom: 260px; }
+#section-ticket .rainbow-pc { left: 50%; bottom: 260px; width: 50%; overflow: hidden; }
 #section-ticket .rainbow-mb { right: 0; bottom: 0; width: 160px; }
 @media (max-width: 991.98px) { #section-ticket .superman { left: 0; top: -110px; width: 60px; }
   #section-ticket .balloons { left: auto; right: 0; top: -80px; width: 30px; } }
