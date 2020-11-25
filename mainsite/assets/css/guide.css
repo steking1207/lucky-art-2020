@@ -53,7 +53,7 @@ body { background: #d7f7f3; }
 #section-traffic hr { border-top-color: #fcded3; }
 
 #section-qa .text-primary { color: #128ab7; }
-#section-qa .media { align-items: center; line-height: 1 !important; }
+#section-qa .media { padding-right: 1.2rem; align-items: center; line-height: 1.2 !important; }
 #section-qa .media .sign-q { font-size: 25px; color: #128ab7; }
 #section-qa .accordion .card { border-top: 1px solid #bce9e3; }
 #section-qa .accordion .card:first-child { border-top: 0; }
