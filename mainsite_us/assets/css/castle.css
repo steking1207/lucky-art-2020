@@ -54,7 +54,7 @@ body { background: #ffe7e3; }
 #section-diy .rounded-lg, #section-diy .intro { position: relative; z-index: 1; }
 #section-diy .notice { background: #fff; border: 3px solid #b4e186; }
 
-#section-change { background: url(../img/ui/bg-star-yellow.png); }
+#section-change { background-color: #fff3c1; }
 #section-change .position-relative .superman { position: absolute; right: 0; bottom: 0; }
 #section-change .carousel-dots { background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%); border-radius: 0 0 20px 20px; }
 @media (max-width: 991.98px) { #section-change .carousel-dots { background: none; } }

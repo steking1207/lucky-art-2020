@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Baloo");
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-body { overflow-x: hidden; background: url(../img/ui/bg-body.jpg); }
+body { overflow-x: hidden; background-color: #dff4ff; }
 
 a { -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; transition: all 0.2s ease; }
 
@@ -29,8 +29,6 @@ select::-ms-expand { display: none; }
 #kv .container-fluid { background-repeat: no-repeat; background-position: center center; background-size: cover; }
 
 #main { margin-top: -100px; }
-#main.sky { background-repeat: no-repeat; background-position: center 0; background-repeat: no-repeat; background-image: url("../img/ui/bg-sky.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) { #main.sky { background-image: url("../img/ui/bg-sky@2x.png"); -moz-background-size: 1920px, 795px; -o-background-size: 1920px, 795px; -webkit-background-size: 1920px, 795px; background-size: 1920px, 795px; } }
 @media (max-width: 767.98px) { #main { margin-top: 20px; } }
 
 @media (max-width: 767.98px) { .table-respons { max-width: 100%; overflow-x: auto; }
@@ -137,7 +135,7 @@ body .navbar-collapse .btn-success:hover, body .navbar-collapse .btn-success:foc
 .nav-prod .nav-link { padding: 15px 40px; background-color: #f2f2f2; color: #000; -moz-border-radius: 10px 10px 0 0; -webkit-border-radius: 10px; border-radius: 10px 10px 0 0; }
 .nav-prod .nav-link span { display: block; font-size: 1.5rem; }
 .nav-prod .nav-link:hover { background-color: #e7e7e7; }
-.nav-prod .nav-link.active { background-image: url(../img/ui/bg-body.jpg); color: #f00; }
+.nav-prod .nav-link.active { background-color: #dff4ff; color: #f00; }
 
 .nav-pills.nav-pills-green .nav-link:hover, .nav-pills.nav-pills-green .nav-link:focus, .nav-pills.nav-pills-green .nav-link.active { background-color: #98be32; }
 .nav-pills.nav-pills-red .nav-link { color: #444; }

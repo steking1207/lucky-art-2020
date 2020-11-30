@@ -295,6 +295,9 @@ a:hover .icon-facebook, a:focus .icon-facebook { background-image: url("../img/u
 
 .object { position: absolute; z-index: 0; }
 
+.media-about { margin: 0 auto; max-width: 960px; align-items: flex-end; }
+.media-about .lead { font-size: 20px; }
+
 .bg-white { background-color: #fff !important; }
 
 .bg-black { background-color: #000; color: #fff; }
