@@ -302,6 +302,11 @@ a:hover .icon-facebook, a:focus .icon-facebook { background-image: url("../img/u
 
 .object { position: absolute; z-index: 0; }
 
+.media-about { margin: 10px auto 0; max-width: 960px; align-items: flex-end; }
+.media-about .lead { font-size: 20px; }
+@media (max-width: 991.98px) { .media-about img { display: none; }
+  .media-about .lead { font-size: 15px; } }
+
 .bg-white { background-color: #fff !important; }
 
 .bg-black { background-color: #000; color: #fff; }
