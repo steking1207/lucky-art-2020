@@ -1445,9 +1445,9 @@ a.close.disabled { pointer-events: none; }
 
 .modal-content { position: relative; display: flex; flex-direction: column; width: 100%; pointer-events: auto; background-color: #fff; background-clip: padding-box; border: 0 solid rgba(0, 0, 0, 0.2); border-radius: 1.33rem; outline: 0; }
 
-.modal-backdrop { position: fixed; top: 0; left: 0; z-index: 1040; width: 100vw; height: 100vh; background-color: #98be32; }
+.modal-backdrop { position: fixed; top: 0; left: 0; z-index: 1040; width: 100vw; height: 100vh; }
 .modal-backdrop.fade { opacity: 0; }
-.modal-backdrop.show { opacity: 0.85; }
+.modal-backdrop.show { opacity: 0.5; }
 
 .modal-header { display: flex; align-items: flex-start; justify-content: space-between; padding: 1rem 1rem; border-bottom: 0 solid #d2d2d2; border-top-left-radius: 1.33rem; border-top-right-radius: 1.33rem; }
 .modal-header .close { padding: 1rem 1rem; margin: -1rem -1rem -1rem auto; }
