@@ -155,7 +155,7 @@ body .navbar-collapse .btn-success:hover, body .navbar-collapse .btn-success:foc
 
 #scrollUp { bottom: 77px; right: 30px; width: 74px; height: 74px; background-image: url("../img/ui/btn-top-normal.png"); }
 #scrollUp:hover { background-image: url("../img/ui/btn-top-active.png"); }
-@media (max-width: 991.98px) { #scrollUp { background-image: url("../img/ui/btn-top-mb.png"); background-size: cover; width: 84px; height: 84px; right: 15px; bottom: 50px; } }
+@media (max-width: 991.98px) { #scrollUp { background-image: url("../img/ui/btn-top-mb.png"); background-size: cover; width: 42px; height: 42px; right: 15px; bottom: 50px; } }
 
 .btn-thumb { outline: 0; }
 .btn-thumb .figure { position: relative; text-align: center; }
