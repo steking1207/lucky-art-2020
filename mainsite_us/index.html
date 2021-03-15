@@ -217,6 +217,46 @@
     <div id="module-footer"></div>
     <!-- ./module: footer -->
 
+    <div class="modal modal-message fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="vertical-alignment-helper">
+            <div class="modal-dialog vertical-align-center p-3">
+                <div class="modal-content rd-xl modal-lg">
+                    <div class="modal-body">
+                        <div class="text-right">
+                            <a class="close" href="" data-dismiss="modal">
+                                <i class="icon-close"></i>
+                            </a>
+                        </div>
+                        <div class="">
+                            <p>Due to the impact of the COVID-19, Lucky Art Crayonology continues to provide a safe and clean environment and will make sure that you and your children will have a clean, safe, and fun place to experience our activities.</p>
+                            <ol class="pl-4">
+                                <li>COVID-19 preventive measures: We have increased the frequency of disinfecting all the tables and chairs, facilities, toilets, door handles, etc. We are limiting the number of people in the room. The number of people will not exceed 25% of the maximum capacity (To regulate occupancy, we will only be operating at a 25% capacity.)</li>
+                                <li>Due to COVID-19, we are temporarily not opening Birthday Party appointments. Admission tickets only.</li>
+                                <li>Due to COVID-19, we are temporarily not opening the Snack Bar area.</li>
+                                <li>Everyone should wear masks when entering the building. We also have disinfection machines near all rooms. We may ask you to disinfect your hands when entering each activity room. If you have any questions about cleaning during your stay in the building, please contact the staff immediately. We value all your questions and feedback.</li>
+                                <li>If you have a fever or physical discomfort, I strongly recommend that you stay at home and have a good rest. We welcome you to come back after you recovered. Also, based on respect for other customers, anyone who has a fever or signs of illness will not be allowed to enter the building.</li>
+                            </ol>
+                            <p>We are following all necessary state and local health department guidelines. We are also closely monitoring CDC guidelines and will provide prompt updates should the situation change.</p>
+                            <p>It is important to take good care of yourself and others. According to the CDC, here are a few ways you can protect yourself:</p>
+                            <ul class="pl-4">
+                                <li>Wash your hands often with soap and water for at least 20 seconds. If soap and water are not available, use an alcohol-based hand sanitizer.</li>
+                                <li>Avoid touching your eyes, nose, and mouth with unwashed hands.</li>
+                                <li>Avoid close contact with people who are sick.</li>
+                                <li>Cover your cough or sneeze with a tissue, then throw the tissue in the trash; or cough or sneeze into your upper sleeve, not your hands.</li>
+                            </ul>
+                            <p>For more information on preventative measures, health updates, and additional information about COVID-19, please visit the CDC (Center of Disease Control) web site, here: <a href="https://www.cdc.gov/coronavirus" target="_blank">https://www.cdc.gov/coronavirus</a></p>
+                            <div class="text-center">
+                                <a class="btn btn-success px-6" href="" data-dismiss="modal">
+                                    <span class="h5">OK</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="fb-root"></div>
 
     <!-- Common -->
@@ -225,6 +265,11 @@
     <script src="assets/js/vendor/jquery.pushy.min.js"></script>
     <script src="assets/js/vendor/jquery.slick.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.modal-message').modal('show');
+        });
+    </script>
 
     <!-- 程式可自行改成其他include用法-->
     <script src="assets/js/function/module.js"></script>
